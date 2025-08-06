@@ -1,5 +1,8 @@
 const book1=document.querySelector("#book1");
-
+const button=document.querySelector(".button-container");
+button.addEventListener("click",()=>{
+    console.log("hi")
+})
 
 function Book(title,author,pages,status){
     if(!new.target){
